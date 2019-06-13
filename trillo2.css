@@ -1,11 +1,10 @@
 .pictures{
-    flex: 1;
+    display:flex;
+    justify-content: space-evenly;
 
 }
 .re{
-
-    flex-direction: column;
-    width: 27%;
+    flex-basis:30%;
 
 }
 *{
@@ -17,4 +16,12 @@
 
     display: flex;
 
+}
+
+.main{
+    display:flex;
+}
+
+.image-width{
+    width:100%;
 }
