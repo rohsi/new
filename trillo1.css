@@ -1,0 +1,32 @@
+.sidebar {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    flex:0 0 19%;
+
+}
+
+.side-nav__link {
+    padding: 1.5rem 3rem;
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+
+}
+
+.side-nav {
+    font-size: 1.4rem;
+    list-style-type: none;
+
+}
+
+.side-nav__icon {
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-right: 1rem;
+}
+
+.legal {
+    text-align: center;
+}

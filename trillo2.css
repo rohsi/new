@@ -1,13 +1,20 @@
 .pictures{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;
+    flex: 1;
 
 }
 .re{
 
-   display: inline-block;
-    width: 33.3%;
+    flex-direction: column;
+    width: 27%;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+.hotel{
+
+    display: flex;
 
 }
