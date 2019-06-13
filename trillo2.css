@@ -1,0 +1,13 @@
+.pictures{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+
+}
+.re{
+
+   display: inline-block;
+    width: 33.3%;
+
+}
