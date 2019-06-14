@@ -1,10 +1,9 @@
 .pictures{
     display:flex;
-    justify-content: space-evenly;
+
 
 }
 .re{
-    flex-basis:30%;
 
 }
 *{
@@ -13,6 +12,7 @@
     box-sizing: inherit;
 }
 .hotel{
+    flex:1;
 
     display: flex;
 
@@ -20,8 +20,10 @@
 
 .main{
     display:flex;
+
 }
 
 .image-width{
     width:100%;
+    display: block;
 }
