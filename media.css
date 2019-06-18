@@ -24,15 +24,27 @@
         justify-content: center;
 
     }
+    .legal{
+        display: none;
+    }
+
+    .side-nav{
+        display: flex;
+    }
+    .side-nav__item--active {
+        justify-content: space-evenly;
+    }
 
     .main {
 
     }
-.description{
-    margin: 0;
-    padding: 0;
-    margin-bottom: 5rem;
-}
+
+    .description {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 5rem;
+    }
+
     .details {
         flex-direction: column;
         margin: 0;

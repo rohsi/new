@@ -31,6 +31,7 @@
     text-align: center;
 }
 
+<<<<<<< Updated upstream
 .header {
 
     flex-wrap: wrap;
@@ -54,5 +55,7 @@
 
 .pictures {
     width: 100%;
-    flex-direction: column;
+
 }
+=======
+>>>>>>> Stashed changes
