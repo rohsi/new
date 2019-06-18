@@ -1,0 +1,21 @@
+@media only screen and (max-width: 75em) {
+    .container {
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .header {
+        flex-wrap: wrap;
+        height: 11rem;
+        align-content: space-around;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .details {
+        flex-direction: column;
+    }
+}
