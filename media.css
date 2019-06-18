@@ -1,21 +1,41 @@
-@media only screen and (max-width: 75em) {
+@media only screen and (max-width: 480px) {
     .container {
         margin: 0;
         max-width: 100%;
         width: 100%;
+        padding: 0;
+        display: flex;
     }
 
-    .header {
-        flex-wrap: wrap;
-        height: 11rem;
-        align-content: space-around;
+    .center {
+
     }
 
     .main {
         flex-direction: column;
     }
 
+    .sidebar {
+
+    }
+
+    .header {
+
+        justify-content: center;
+
+    }
+
+    .main {
+
+    }
+.description{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5rem;
+}
     .details {
         flex-direction: column;
+        margin: 0;
+        padding: 0;
     }
 }
